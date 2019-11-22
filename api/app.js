@@ -6,7 +6,7 @@ const path = require('path');
 const db = require('./models');
 const passport = require('./middlewares/authentication');
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8080;
 
 
 // this lets us parse 'application/json' content in http requests
@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 
 // setup passport and session cookies
 app.use(expressSession({ 
-  secret: process.env.SESSION_SECRET, 
+  secret: 'fake_secret', 
   resave: false,
   saveUninitialized: true }));
 app.use(passport.initialize());
