@@ -13,13 +13,18 @@ import AboutUsPage from './pages/AboutUsPage';
 import LoginPage from './pages/LoginPage';
 import PrivateRoute from './components/PrivateRoute';
 import AuthButton from './components/AuthButton';
+import Homepage from './pages/Homepage/Homepage.js';
 
 import './App.css';
 
 
+/*
+Changes:
+-removed mb-3 from className
+*/
 function Navigation(props) {
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark shadow mb-3">
+    <nav className="navbar navbar-expand-sm navbar-dark bg-dark shadow ">
       <Link className="navbar-brand" to="/">Micro Blog</Link>
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
@@ -38,6 +43,7 @@ function Navigation(props) {
   );
 }
 
+//                <Route path="/" component={PostsListPage} />
 
 class App extends React.Component {
   render() {
@@ -51,7 +57,7 @@ class App extends React.Component {
                 <PrivateRoute path="/posts/new" component={PostFormPage} />
                 <Route path="/posts/:id" component={ShowPostPage} />
                 <Route path="/about-us" component={AboutUsPage} />
-                <Route path="/" component={PostsListPage} />
+                <Route path="/" component={Homepage} />
               </Switch>
             </div>
           </div>
