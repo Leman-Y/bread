@@ -100,13 +100,13 @@ class Homepage extends Component{
 	                        
 	                        <div class="carousel-inner" role="listbox">
 	                            <div class="item active">
-	                                <img class="img-responsive" src={require("./assets/images/img-05.jpg")} alt="First slide"/>
+	                                <img class="img-responsive" src="https://i.vimeocdn.com/video/595198868_505x160.jpg" alt="First slide"/>
 	                            </div>
 	                            <div class="item">
-	                                <img class="img-responsive" src={require("./assets/images/img-07.jpg")} alt="Second slide"/>
+	                                <img class="img-responsive" src="https://i.vimeocdn.com/video/589972810_530x315.jpg" alt="Second slide"/>
 	                            </div>
 	                            <div class="item">
-	                                <img class="img-responsive" src={require("./assets/images/img-05.jpg")} alt="Third slide"/>
+	                                <img class="img-responsive" src="https://i.vimeocdn.com/video/590587169_530x315.jpg" alt="Third slide"/>
 	                            </div>
 	                        </div>
 	                        <ol class="carousel-indicators">
