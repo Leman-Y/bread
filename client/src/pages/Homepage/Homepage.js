@@ -10,6 +10,7 @@ import './Homepage.css'
 Notes:
 -backgroundImage: `url(${home})`
 -Why isn't bootstrap set to 100% width? What's happening
+-http://www.mashup-template.com/preview.html?template=pure
 
 Bugs:
 -Need to fix carousel issue. Unresponsive
@@ -90,7 +91,7 @@ class Homepage extends Component{
 	                        
 	                        <div class="carousel-inner" role="listbox">
 	                            <div class="item active">
-	                                <img class="img-responsive" src="https://i.vimeocdn.com/video/595198868_505x160.jpg" alt="First slide"/>
+	                                <img class="img-responsive" src="https://themes-backend.material-ui.com/wp-content/uploads/2019/08/1000x555-3.png" alt="First slide"/>
 	                            </div>
 	                            <div class="item">
 	                                <img class="img-responsive" src="https://i.vimeocdn.com/video/589972810_530x315.jpg" alt="Second slide"/>
