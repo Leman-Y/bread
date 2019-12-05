@@ -10,6 +10,7 @@ import './Homepage.css'
 Notes:
 -backgroundImage: `url(${home})`
 -Why isn't bootstrap set to 100% width? What's happening
+-http://www.mashup-template.com/preview.html?template=pure
 
 Bugs:
 -Need to fix carousel issue. Unresponsive
@@ -23,11 +24,9 @@ class Homepage extends Component{
 		    <div class="container">
 		        <div class="row">		           
 		            <div class="col-md-6">
-		                <h1>Posuere lorem Ipsum</h1>
-		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-		                    et dolore magna aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit. Ipsum dolor sit
-		                    amet consectetur adipiscing elit. </p>
-		                 <a href="./download.html" title="" class="btn btn-lg btn-primary">Download</a>
+		                <h1>Budgeting Just Got Easy</h1>
+		                <p>Bread helps you create a monthly budget so you can achieve your money goals. Say goodbye to money stress and hello to confidence in your financial future. Create your first budget in less than 10 minutes.</p>
+		                 <a href="./download.html" title="" class="btn btn-lg btn-primary">Create Account</a>
 		            </div>
 
 		        </div>
@@ -50,12 +49,10 @@ class Homepage extends Component{
 		                        <i class="fa fa-comment-o fa-3x" aria-hidden="true"></i>
 		                    </div>
 		                    <div class="text-center">
-		                        <h3>Consectetur</h3>
+		                        <h3>Add Your Monthly Income</h3>
 		                    </div>
 		                    <div>
-		                        <p>Auctor augue mauris augue neque. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Porta
-		                            non pulvinar neque laoreet. Viverra ipsum nunc aliquet bibendum. Iaculis urna id volutpat lacus.
-		                            Turpis egestas pretium aenean pharetra magna ac.</p>
+		                        <p>Start your budget by adding the income you expect to make this month.</p>
 		                    </div>
 		                </div>
 		                <div class="col-md-4">
@@ -63,13 +60,10 @@ class Homepage extends Component{
 		                        <i class="fa fa-heart-o fa-3x" aria-hidden="true"></i>
 		                    </div>
 		                    <div class="text-center">
-		                        <h3>Malesuada</h3>
+		                        <h3>Plan Your Expenses</h3>
 		                    </div>
 		                    <div>
-		                        <p>Auctor augue mauris augue neque. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Porta
-		                            non pulvinar neque laoreet. Viverra ipsum nunc aliquet bibendum. Iaculis urna id volutpat lacus.
-		                            Turpis egestas pretium aenean pharetra magna ac.
-		                        </p>
+		                        <p>Next, make a plan for your income. Bread provides you with a customizable template for budgeting your monthly expenses.</p>
 		                    </div>
 		                </div>
 		                <div class="col-md-4">
@@ -77,13 +71,10 @@ class Homepage extends Component{
 		                        <i class="fa fa-bell-o fa-3x" aria-hidden="true"></i>
 		                    </div>
 		                    <div class="text-center">
-		                        <h3>Phasellus</h3>
+		                        <h3>Track Your Spending</h3>
 		                    </div>
 		                    <div>
-		                        <p>Auctor augue mauris augue neque. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Porta
-		                            non pulvinar neque laoreet. Viverra ipsum nunc aliquet bibendum. Iaculis urna id volutpat lacus.
-		                            Turpis egestas pretium aenean pharetra magna ac. 
-		                        </p>
+		                        <p>Follow your plan by keeping track of your spending throughout the month. Each time you spend money, create a transaction and track it to your budget.</p>
 		                    </div>
 		                </div>
 
@@ -100,7 +91,7 @@ class Homepage extends Component{
 	                        
 	                        <div class="carousel-inner" role="listbox">
 	                            <div class="item active">
-	                                <img class="img-responsive" src="https://i.vimeocdn.com/video/595198868_505x160.jpg" alt="First slide"/>
+	                                <img class="img-responsive" src="https://themes-backend.material-ui.com/wp-content/uploads/2019/08/1000x555-3.png" alt="First slide"/>
 	                            </div>
 	                            <div class="item">
 	                                <img class="img-responsive" src="https://i.vimeocdn.com/video/589972810_530x315.jpg" alt="Second slide"/>
@@ -120,7 +111,7 @@ class Homepage extends Component{
 	    </div>
 	</div>
 
-	<div class="section-container background-color-container white-text-container" >
+	<div class="section-container background-color-container white-text-container" style={{width: '100%'}} >
 	    <div class="container">
 	        <div class="row">
 	            <div class="col-xs-12">
