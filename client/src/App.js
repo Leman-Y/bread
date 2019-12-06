@@ -14,6 +14,9 @@ import LoginPage from './pages/LoginPage';
 import PrivateRoute from './components/PrivateRoute';
 import AuthButton from './components/AuthButton';
 import Homepage from './pages/Homepage/Homepage.js';
+import SignIn from './pages/signin.jsx';
+import theme from './theme';
+import { ThemeProvider } from '@material-ui/styles';
 
 import './App.css';
 
@@ -50,11 +53,13 @@ function Navigation(props) {
 class App extends React.Component {
   render() {
     return (
+      <ThemeProvider theme={theme}>
         <Router>
           <div className="container-fluid text-center">
             <div className="row justify-content-center">
               <Switch>
                 <Route path="/login" component={LoginPage} />
+                <Route path="/signin" component={SignIn} />
                 <PrivateRoute path="/posts/new" component={PostFormPage} />
                 <Route path="/posts/:id" component={ShowPostPage} />
                 <Route path="/about-us" component={AboutUsPage} />
@@ -63,6 +68,7 @@ class App extends React.Component {
             </div>
           </div>
         </Router>
+        </ThemeProvider>
     );
   }
 }
