@@ -17,6 +17,7 @@ import Homepage from './pages/Homepage/Homepage.js';
 import SignIn from './pages/signin.jsx';
 import theme from './theme';
 import { ThemeProvider } from '@material-ui/styles';
+import Dashboard from './pages/Dashboard';
 
 import './App.css';
 
@@ -63,6 +64,7 @@ class App extends React.Component {
                 <PrivateRoute path="/posts/new" component={PostFormPage} />
                 <Route path="/posts/:id" component={ShowPostPage} />
                 <Route path="/about-us" component={AboutUsPage} />
+                <Route path="/dashboard" component={Dashboard} />
                 <Route path="/" component={Homepage} />
               </Switch>
             </div>
