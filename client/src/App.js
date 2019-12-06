@@ -18,6 +18,7 @@ import SignIn from './pages/signin.jsx';
 import theme from './theme';
 import { ThemeProvider } from '@material-ui/styles';
 import Dashboard from './pages/Dashboard';
+import SignUp from './pages/SignUp';
 
 import './App.css';
 
@@ -60,11 +61,12 @@ class App extends React.Component {
             <div className="row justify-content-center">
               <Switch>
                 <Route path="/login" component={LoginPage} />
-                <Route path="/signin" component={SignIn} />
+                <Route path="/sign-in" component={SignIn} />
                 <PrivateRoute path="/posts/new" component={PostFormPage} />
                 <Route path="/posts/:id" component={ShowPostPage} />
                 <Route path="/about-us" component={AboutUsPage} />
                 <Route path="/dashboard" component={Dashboard} />
+                <Route path="/sign-up" component={SignUp} />
                 <Route path="/" component={Homepage} />
               </Switch>
             </div>
