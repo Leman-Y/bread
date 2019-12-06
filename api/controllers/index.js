@@ -7,7 +7,7 @@ const authController = require('./auth');
 const postsController = require('./posts.js');
 const incomesController = require('./incomes.js');
 const transactionsController = require('./transactions.js');
-const transactionsCategoriesController = require('./transactionsCategories.js');
+const transactionsCategoriesController = require('./transactionCategories.js');
 const userFinancialInfoController = require('./userFinancialInfo.js');
 const appConfigController = require('./appConfig.js');
 
