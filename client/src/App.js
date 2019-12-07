@@ -4,6 +4,7 @@ import {
   Switch, 
   Route, 
   Link,
+  Redirect,
   NavLink
 } from 'react-router-dom';
 //import PostsListPage from './pages/PostsListPage';
@@ -19,6 +20,14 @@ import theme from './theme';
 import { ThemeProvider } from '@material-ui/styles';
 import Dashboard from './pages/Dashboard';
 import SignUp from './pages/SignUp';
+import ProductList from './pages/ProductList';
+import UserList from './pages/UserList';
+import Typography from './pages/Typography';
+import Account from './pages/Account';
+import Settings from './pages/Settings';
+import UnderDevelopment from './pages/UnderDevelopment';
+import NotFound from './pages/NotFound';
+import Icons from './pages/Icons';
 
 import './App.css';
 
@@ -67,6 +76,16 @@ class App extends React.Component {
                 <Route path="/about-us" component={AboutUsPage} />
                 <Route path="/dashboard" component={Dashboard} />
                 <Route path="/sign-up" component={SignUp} />
+                <Route path="/users" component={UserList}/>
+                <Route path="/products" component={ProductList}/>
+                <Route path="/typography" component={Typography}/>
+                <Route path="/account" component={Account}/>
+                <Route path="/settings" component={Settings}/>
+                <Route path="/sign-up" component={SignUp}/>
+                <Route path="/sign-in" component={SignIn}/>
+                <Route path="/under-development" component={UnderDevelopment}/>
+                <Route  path="/not-found" component={NotFound}/>
+                <Route  path="/icons" component={Icons}/>
                 <Route path="/" component={Homepage} />
               </Switch>
             </div>

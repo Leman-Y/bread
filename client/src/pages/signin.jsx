@@ -24,7 +24,7 @@ import {
 import { ArrowBack as ArrowBackIcon } from '@material-ui/icons';
 
 // Shared components
-import { Facebook as FacebookIcon, Google as GoogleIcon } from './icons';
+import { Facebook as FacebookIcon, Google as GoogleIcon } from './icon';
 
 // Component styles
 import styles from './styles';
