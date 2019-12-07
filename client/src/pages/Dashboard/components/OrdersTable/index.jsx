@@ -98,13 +98,12 @@ class OrdersTable extends Component {
     this.signal = false;
   }
   handleClick = () => {
-    // if(!this.state.referrer){
-      this.setState({referrer: '/transactions'});
-    // }
-    // else{
-    //   this.setState({referrer: null});
-    //   console.log(window.location.href);
-    // }
+      if(window.location.href == "http://localhost:3000/dashboard"){
+        this.setState({referrer: '/transactions'});
+      }
+      else{
+        this.setState({referrer: 'showModal'});
+      }
     
   }
   render() {
@@ -116,7 +115,8 @@ class OrdersTable extends Component {
     // const myClick: function () { 
     //   alert("Hello World!");
     // }
-    //if (this.state.referrer == '/transactions')return <Redirect to={this.state.referrer} />;
+    if (this.state.referrer == '/transactions')return <Redirect to={this.state.referrer} />;
+    //if (this.state.referrer == 'showModal')return <></>;
     return (
       <Portlet className={rootClassName}>
         <PortletHeader noDivider>
