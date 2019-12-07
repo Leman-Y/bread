@@ -1,9 +1,17 @@
 import React, { Component, Fragment } from 'react';
-import { Link } from 'react-router-dom';
 
 // Externals
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
+import { 
+  BrowserRouter as Router, 
+  Switch, 
+  Route, 
+  Link,
+  Redirect,
+  NavLink
+} from 'react-router-dom';
+
 
 // Shared services
 import { getProducts } from '../../../../services/product';
@@ -39,7 +47,10 @@ import styles from './styles';
 
 class ProductList extends Component {
   signal = true;
-
+  pStyle = {
+    color : 'Blue'
+  };
+  
   state = {
     isLoading: false,
     limit: 4,
@@ -141,13 +152,22 @@ class ProductList extends Component {
       </Fragment>
     );
   }
-
+  handleClick = () => {
+    // if(!this.state.referrer){
+      this.setState({referrer: '/products'});
+    // }
+    // else{
+    //   this.setState({referrer: null});
+    //   console.log(window.location.href);
+    // }
+    
+  }
   render() {
     const { classes, className, ...rest } = this.props;
     const { productsTotal } = this.state;
 
     const rootClassName = classNames(classes.root, className);
-
+    if (this.state.referrer)return <Redirect to={this.state.referrer} />;
     return (
       <Portlet
         {...rest}
@@ -163,10 +183,12 @@ class ProductList extends Component {
           {this.renderProducts()}
         </PortletContent>
         <PortletFooter className={classes.portletFooter}>
+       
           <Button
             color="primary"
             size="small"
             variant="text"
+            onClick = {this.handleClick}
           >
             View all <ArrowRightIcon />
           </Button>

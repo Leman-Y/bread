@@ -28,7 +28,7 @@ import Settings from './pages/Settings';
 import UnderDevelopment from './pages/UnderDevelopment';
 import NotFound from './pages/NotFound';
 import Icons from './pages/Icons';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 
@@ -78,7 +78,7 @@ class App extends React.Component {
                 <Route path="/sign-up" component={SignUp} />
                 <Route path="/users" component={UserList}/>
                 <Route path="/products" component={ProductList}/>
-                <Route path="/typography" component={Typography}/>
+                <Route path="/transactions" component={Typography}/>
                 <Route path="/account" component={Account}/>
                 <Route path="/settings" component={Settings}/>
                 <Route path="/sign-up" component={SignUp}/>

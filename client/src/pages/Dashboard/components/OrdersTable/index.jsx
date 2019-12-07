@@ -5,6 +5,14 @@ import classNames from 'classnames';
 import moment from 'moment';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import PropTypes from 'prop-types';
+import { 
+  BrowserRouter as Router, 
+  Switch, 
+  Route, 
+  Link,
+  Redirect,
+  NavLink
+} from 'react-router-dom';
 
 // Material helpers
 import { withStyles } from '@material-ui/core';
@@ -51,7 +59,8 @@ class OrdersTable extends Component {
     isLoading: false,
     limit: 10,
     orders: [],
-    ordersTotal: 0
+    ordersTotal: 0,
+    referrer: null
   };
 
   async getOrders(limit) {
@@ -88,14 +97,26 @@ class OrdersTable extends Component {
   componentWillUnmount() {
     this.signal = false;
   }
-
+  handleClick = () => {
+      if(window.location.href == "http://localhost:3000/dashboard"){
+        this.setState({referrer: '/transactions'});
+      }
+      else{
+        this.setState({referrer: 'showModal'});
+      }
+    
+  }
   render() {
     const { classes, className } = this.props;
     const { isLoading, orders, ordersTotal } = this.state;
 
     const rootClassName = classNames(classes.root, className);
     const showOrders = !isLoading && orders.length > 0;
-
+    // const myClick: function () { 
+    //   alert("Hello World!");
+    // }
+    if (this.state.referrer == '/transactions')return <Redirect to={this.state.referrer} />;
+    //if (this.state.referrer == 'showModal')return <></>;
     return (
       <Portlet className={rootClassName}>
         <PortletHeader noDivider>
@@ -109,6 +130,7 @@ class OrdersTable extends Component {
               color="primary"
               size="small"
               variant="outlined"
+              onClick={this.handleClick}
             >
               New entry
             </Button>

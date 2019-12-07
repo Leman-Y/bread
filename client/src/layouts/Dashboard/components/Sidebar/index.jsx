@@ -143,14 +143,14 @@ class Sidebar extends Component {
             activeClassName={classes.activeListItem}
             className={classes.listItem}
             component={NavLink}
-            to="/typography"
+            to="/transactions"
           >
             <ListItemIcon className={classes.listItemIcon}>
               <TextFieldsIcon />
             </ListItemIcon>
             <ListItemText
               classes={{ primary: classes.listItemText }}
-              primary="Typography"
+              primary="Transactions"
             />
           </ListItem>
           <ListItem
