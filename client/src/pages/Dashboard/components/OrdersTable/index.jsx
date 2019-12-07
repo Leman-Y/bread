@@ -98,7 +98,7 @@ class OrdersTable extends Component {
     this.signal = false;
   }
   handleClick = () => {
-      if(window.location.href == "http://localhost:3000/dashboard"){
+      if(window.location.href.indexOf('/dashboard') >= 0){
         this.setState({referrer: '/transactions'});
       }
       else{
