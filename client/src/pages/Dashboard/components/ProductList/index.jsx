@@ -39,7 +39,10 @@ import styles from './styles';
 
 class ProductList extends Component {
   signal = true;
-
+  pStyle = {
+    color : 'Blue'
+  };
+  
   state = {
     isLoading: false,
     limit: 4,
@@ -141,7 +144,7 @@ class ProductList extends Component {
       </Fragment>
     );
   }
-
+  
   render() {
     const { classes, className, ...rest } = this.props;
     const { productsTotal } = this.state;
@@ -163,13 +166,17 @@ class ProductList extends Component {
           {this.renderProducts()}
         </PortletContent>
         <PortletFooter className={classes.portletFooter}>
-          <Button
+        <Link to="/products" className="btn" style={this.pStyle}
+            size="small"
+            variant="text"> View all <ArrowRightIcon /></Link>
+
+          {/* <Button
             color="primary"
             size="small"
             variant="text"
           >
             View all <ArrowRightIcon />
-          </Button>
+          </Button> */}
         </PortletFooter>
       </Portlet>
     );
