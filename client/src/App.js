@@ -27,7 +27,7 @@ import Account from './pages/Account';
 import Settings from './pages/Settings';
 import UnderDevelopment from './pages/UnderDevelopment';
 import NotFound from './pages/NotFound';
-import Icons from './pages/icons';
+import Icons from './pages/Icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
