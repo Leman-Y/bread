@@ -77,7 +77,7 @@ class Homepage extends Component{
 
 			    <div class="col-3 ">
 			      <div class="site-logo">
-			        <a href="index.html" class="font-weight-bold">Arcwork</a>
+			        <a href="index.html" class="font-weight-bold">Bread</a>
 			      </div>
 			    </div>
 
@@ -111,7 +111,7 @@ class Homepage extends Component{
 		        <div class="container">
 		          <div class="row align-items-center justify-content-center">
 		            <div class="col-lg-8">
-		              <h1 class="mb-5 text-primary font-weight-bold"  data-aos="fade-up">Grow Up Your <span class="typed-words">Business</span>.</h1>
+		              <h1 class="mb-5 text-primary font-weight-bold"  data-aos="fade-up">Budgeting <div class="typed-words">Just Got Easy</div></h1>
 		              <p data-aos="fade-up" data-aos-delay="100"><a href="#Homepage" class="more-29291">View Our Services</a></p>
 		            </div>
 		          </div>
@@ -125,8 +125,8 @@ class Homepage extends Component{
 		          <div class="col-md-4" data-aos="fade-up" data-aos-delay="">
 		            <div class="feature-92912">
 		              <span class="wrap-icon flaticon-debt"></span>
-		              <h2 class="heading">Financial Analysis</h2>
-		              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!</p>
+		              <h2 class="heading">Add Your Monthly Income</h2>
+		              <p>Start your budget by adding the income you expect to make this month.</p>
 
 		              <p><a href="#Homepage" class="more-92913">View Our Services</a></p>
 		            </div>
@@ -134,16 +134,16 @@ class Homepage extends Component{
 		          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
 		            <div class="feature-92912 active">
 		              <span class="wrap-icon flaticon-growth"></span>
-		              <h2 class="heading">Marketing Plans</h2>
-		              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!</p>
+		              <h2 class="heading">Plan Your Expenses</h2>
+		              <p>Next, make a plan for your income. Bread provides you with a customizable template for budgeting your monthly expenses.</p>
 		              <p><a href="#" class="more-92913">View Our Services</a></p>
 		            </div>
 		          </div>
 		          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
 		            <div class="feature-92912">
 		              <span class="wrap-icon flaticon-business-plan"></span>
-		              <h2 class="heading">Optimize Solutions</h2>
-		              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!</p>
+		              <h2 class="heading">Track Your Spending</h2>
+		              <p>Keep track of your spending throughout the month. Each time you spend money, create a transaction and track it to your budget.</p>
 		              <p><a href="#Homepage" class="more-92913">View Our Services</a></p>
 		            </div>
 		          </div>
@@ -162,28 +162,16 @@ class Homepage extends Component{
 
 		        <div class="owl-carousel nonloop-block-13">
 		          <div class="media-29101">
-		            <a href="#Homepage"><img src={require("./images/img_1.jpg")} alt="Image" class="img-fluid"/></a>
-		            <h3><a href="#Homepage">Consectetur Adipisicing Elit</a></h3>
+		            <a href="#Homepage"><img src="https://www.clearpointstrategy.com/wp-content/uploads/2019/04/Budget-vs.-Actual-Dashboard-1024x561.png" alt="Image" class="img-fluid"/></a>
+		            <h3><a href="#Homepage">Budgeting Dashboard</a></h3>
 		          </div>
 		          <div class="media-29101">
-		            <a href="#Homepage"><img src={require("./images/img_2.jpg")} alt="Image" class="img-fluid"/></a>
-		            <h3><a href="#Homepage">Beatae Doloribu</a></h3>
+		            <a href="#Homepage"><img src="https://www.everydollar.com/images/home/hero-devices-c33a5f.png" alt="Image" class="img-fluid"/></a>
+		            <h3><a href="#Homepage">Transaction Page</a></h3>
 		          </div>
 		          <div class="media-29101">
-		            <a href="#Homepage"><img src={require("./images/img_3.jpg")} alt="Image" class="img-fluid"/></a>
-		            <h3><a href="#Homepage">Accusantium Eius Soluta</a></h3>
-		          </div>
-		          <div class="media-29101">
-		            <a href="#Homepage"><img src={require("./images/img_1.jpg")} alt="Image" class="img-fluid"/></a>
-		            <h3><a href="#Homepage">Consectetur Adipisicing Elit</a></h3>
-		          </div>
-		          <div class="media-29101">
-		            <a href="#Homepage"><img src={require("./images/img_2.jpg")} alt="Image" class="img-fluid"/></a>
-		            <h3><a href="#Homepage">Beatae Doloribu</a></h3>
-		          </div>
-		          <div class="media-29101">
-		            <a href="#Homepage"><img src={require("./images/img_3.jpg")} alt="Image" class="img-fluid"/></a>
-		            <h3><a href="#Homepage">Accusantium Eius Soluta</a></h3>
+		            <a href="#Homepage"><img src={require("./images/Business-articles.png")} alt="Image" class="img-fluid"/></a>
+		            <h3><a href="#Homepage">Financial Literacy Articles</a></h3>
 		          </div>
 		        </div>
 
@@ -202,23 +190,23 @@ class Homepage extends Component{
 		            <div class="owl-carousel slide-one-item">
 
 		              <div class="d-md-flex testimony-29101 align-items-stretch">
-		                <div class="image" style={{backgroundImage: `url(${Testimony_person_1})`}}></div>
+		                <div class="image" style={{backgroundImage: `url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVRVJ67-duH65RXr5LY7UobjoTJty2YwPIiNB3rjfXC26jowNNIQ&s")`}}></div>
 		                <div class="text">
 		                  <blockquote>
-		                    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, at! Atque totam obcaecati veniam eius vero, similique quibusdam! Sunt sequi, nemo. Quam consequuntur ipsum suscipit repellat molestiae laboriosam, incidunt!&rdquo;</p>
+		                    <p>&ldquo;Awesome app! Especially for millennials who don't like to do budgets or calculate. Helps me keep track and be more mindful of my spending habits.&rdquo;</p>
+		                    <div class="author">&mdash; Craig Vashnul</div>
 
-		                    <div class="author">&mdash; Craig Stephen</div>
 		                  </blockquote>
 		                </div>
 		              </div>  
 
 		              <div class="d-md-flex testimony-29101 align-items-stretch">
-		                <div class="image" style={{backgroundImage: `url(${Testimony_person_1})`}}></div>
+		                <div class="image" style={{backgroundImage: `url("https://next.bncollege.com/wp-content/uploads/2016/10/Student-with-Textbook.jpg")`}}></div>
 		                <div class="text">
 		                  <blockquote>
-		                    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, at! Atque totam obcaecati veniam eius vero, similique quibusdam! Sunt sequi, nemo. Quam consequuntur ipsum suscipit repellat molestiae laboriosam, incidunt!&rdquo;</p>
+		                    <p>&ldquo;Having the ability to manage my budget at such a granular level and be able to add entries on the fly has taken my quest to be rid of debt to a whole new level!&rdquo;</p>
 
-		                    <div class="author">&mdash; Craig Stephen</div>
+		                    <div class="author">&mdash; Melissa Stephen</div>
 		                  </blockquote>
 		                </div>
 		              </div>  
@@ -246,28 +234,28 @@ class Homepage extends Component{
 		          <div class="col-lg-4 col-md-6 mb-4">
 		            <div class="post-entry-1 h-100">
 		              <a href="single.html">
-		                <img src={require("./images/img_1.jpg")} alt="Image"
+		                <img src="https://www.moneycrashers.com/wp-content/uploads/2019/02/best-credit-cards-college-students-1068x713.jpg" alt="Image"
 		                 class="img-fluid"/>
 		              </a>
 		              <div class="post-entry-1-contents">
 		                
-		                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
-		                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
-		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+		                <h2><a href="single.html">8 Best Credit Cards for College Students</a></h2>
+		                <span class="meta d-inline-block mb-3">December 1, 2019 <span class="mx-2">by</span> <a href="https://www.moneycrashers.com/best-credit-cards-college-students/" target="_blank">Brian Martucci</a></span>
+		                <p>Most college students have limited experience with credit cards and other forms of credit. Accordingly, their credit histories are often thin or nonexistent.</p>
 		              </div>
 		            </div>
 		          </div>
 		          <div class="col-lg-4 col-md-6 mb-4">
 		            <div class="post-entry-1 h-100">
 		              <a href="single.html">
-		                <img src={require("./images/img_2.jpg")} alt="Image"
+		                <img src="https://cnet3.cbsistatic.com/img/cM76O4CkKf8ig1FeS1k_7XWPsao=/1200x675/2019/11/27/798bac68-694a-48bc-9b6f-9578b0f2777d/money-cash-coins-purse-money-3719.jpg" alt="Image"
 		                 class="img-fluid"/>
 		              </a>
 		              <div class="post-entry-1-contents">
 		                
-		                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
-		                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#Homepage">Admin</a></span>
-		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+		                <h2><a href="single.html">10 Things You Need to Know About Money</a></h2>
+		                <span class="meta d-inline-block mb-3">April 8, 2008 <span class="mx-2">by</span> <a href="https://www.thestreet.com/personal-finance/ten-things-you-need-to-know-about-money-10410949" target="_blank">Jeffrey Strain </a></span>
+		                <p>Many adults don't understand money as well as they should - here are 10 financial basics that will impact your household finances.</p>
 		              </div>
 		            </div>
 		          </div>
@@ -275,14 +263,14 @@ class Homepage extends Component{
 		          <div class="col-lg-4 col-md-6 mb-4">
 		            <div class="post-entry-1 h-100">
 		              <a href="single.html">
-		                <img src={require("./images/img_3.jpg")} alt="Image"
+		                <img src="https://previews.123rf.com/images/alwih/alwih1902/alwih190200295/119837287-closeup-of-a-hundred-dollar-bill-background-of-dollar-bills-american-dollars-cash-money-benjamin-fra.jpg" alt="Image"
 		                 class="img-fluid"/>
 		              </a>
 		              <div class="post-entry-1-contents">
 		                
-		                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
-		                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#Homepage">Admin</a></span>
-		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+		                <h2><a href="single.html">How to Invest - Basic Investing Strategies</a></h2>
+		                <span class="meta d-inline-block mb-3">Oct 31, 2012<span class="mx-2">by</span> <a href="https://www.thestreet.com/investing/how-to-invest-ways-to-make-your-money-grow-11748100" target="_blank">John Defeo</a></span>
+		                <p>Learning how to invest is an important life lesson. Here are a few investing strategies for people who'd like to start investing money without obsessing.</p>
 		              </div>
 		            </div>
 		          </div>
@@ -294,7 +282,7 @@ class Homepage extends Component{
 		      <div class="container">
 		        <div class="row justify-content-center">
 		          <div class="col-md-8">
-		            <h2 class="text-primary mb-5 font-weight-bold">Let's work together to make your business growth dramatically.</h2>
+		            <h2 class="text-primary mb-5 font-weight-bold">With our web application you can be financially aware of your life and learn about personal finance!</h2>
 		            <p><a href="#Homepage" class="more-29291">View Our Services</a></p>    
 		          </div>
 		        </div>
@@ -306,7 +294,7 @@ class Homepage extends Component{
 		        <div class="row">
 		          <div class="col-md-3">
 		            <div class="site-logo-footer">
-		              <a href="index.html">ArcWork</a>
+		              <a href="index.html">Bread</a>
 		            </div> 
 		          </div>
 		          <div class="col-md-8 ml-auto">
