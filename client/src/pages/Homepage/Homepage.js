@@ -95,6 +95,7 @@ class Homepage extends Component{
 			          <li><a href="services.html" class="nav-link">Services</a></li>
 			          <li><a href="blog.html" class="nav-link">Blog</a></li>
 			          <li><a href="contact.html" class="nav-link">Contact</a></li>
+					  <li><a href="sign-in" class="nav-link">Log In</a></li>
 			        </ul>
 			      </nav>
 			    </div>

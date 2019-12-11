@@ -4,8 +4,8 @@
   "description": "An api backend",
   "main": "index.js",
   "scripts": {
-    "start": "node api/app.js",
-    "dev": "nodemon -r dotenv/config api/app.js",
+    "start": "node app.js",
+    "dev": "nodemon -r dotenv/config app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cd client && npm install && npm run build"
   },
@@ -21,7 +21,8 @@
     "passport-local": "^1.0.0",
     "pg": "^7.12.1",
     "pg-hstore": "^2.3.3",
-    "sequelize": "^5.19.2",
+    "sequelize": "^5.21.2",
+    "sequelize-auto-migrations": "^1.0.3",
     "sqlite3": "^4.1.0"
   },
   "devDependencies": {

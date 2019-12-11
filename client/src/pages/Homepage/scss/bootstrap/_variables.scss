@@ -16,6 +16,9 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
+$owl-image-path: "~owl.carousel/src/img/";
+@import '~owl.carousel/src/scss/owl.carousel';
+@import '~owl.carousel/src/scss/owl.theme.default';
 
 $grays: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
