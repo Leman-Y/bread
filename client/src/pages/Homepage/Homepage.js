@@ -302,7 +302,7 @@ class Homepage extends Component{
 		              <div class="col-md-4 ml-auto">
 		                <ul class="list-unstyled links">
 		                  <li><a href="#Homepage">Contact Us</a></li>
-		                  <li><a href="#Homepage">hello@mydomain.com</a></li>
+		                  <li><a href="#Homepage">hello@bread.com</a></li>
 		                  <li><a href="#Homepage">+1 829 2293 382</a></li>
 		                  <li><a href="#Homepage">Support</a></li>
 		                </ul>
@@ -317,10 +317,10 @@ class Homepage extends Component{
 		              </div>
 		              <div class="col-md-4">
 		                <ul class="list-unstyled links">
-		                  <li><a href="#Homepage">Home</a></li>
-		                  <li><a href="#Homepage">Blog</a></li>
-		                  <li><a href="#Homepage">Services</a></li>
-		                  <li><a href="#Homepage">About Us</a></li>
+		                  <li><a href="#Homepage">Careers</a></li>
+		                  <li><a href="#Homepage">Privacy Policy</a></li>
+		                  <li><a href="#Homepage">Terms of Use</a></li>
+		                  <li><a href="#Homepage">Help Center</a></li>
 		                </ul>
 		              </div>
 		            </div>
