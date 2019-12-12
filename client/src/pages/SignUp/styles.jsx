@@ -1,6 +1,6 @@
 export default theme => ({
   root: {
-    backgroundColor: theme.palette.background.default,
+    backgroundColor: theme.palette.background.white,
     height: '100vh'
   },
   grid: {
@@ -27,12 +27,15 @@ export default theme => ({
     flexBasis: '600px'
   },
   quoteText: {
-    color: theme.palette.common.white,
-    fontWeight: 300
+    color: "#0B7FE5",
+    fontFamily: 'Geneva',
+    fontSize: 50,
+    fontWeight: 1000,
+    fontWeight: "bold"
   },
   name: {
     marginTop: theme.spacing.unit * 3,
-    color: theme.palette.common.white
+    color: theme.palette.common.white,
   },
   bio: {
     color: theme.palette.common.white

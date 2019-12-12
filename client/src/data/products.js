@@ -1,7 +1,7 @@
 export default [
   {
     id: 'DEV738089',
-    title: 'Dropbox',
+    title: 'Bills',
     description:
       'Dropbox is a file hosting service that offers cloud storage, file synchronization, a personal cloud.',
     imageUrl: '/images/products/product_1.png',
@@ -12,7 +12,7 @@ export default [
   },
   {
     id: 'DEV795381',
-    title: 'Medium Corporation',
+    title: 'Food',
     description:
       'Medium is an online publishing platform developed by Evan Williams, and launched in August 2012.',
     imageUrl: '/images/products/product_2.png',
@@ -23,7 +23,7 @@ export default [
   },
   {
     id: 'DEV774585',
-    title: 'Slack',
+    title: 'Entertainment',
     description:
       'Slack is a cloud-based set of team collaboration tools and services, founded by Stewart Butterfield.',
     imageUrl: '/images/products/product_3.png',
@@ -34,7 +34,7 @@ export default [
   },
   {
     id: 'DEV654476',
-    title: 'Lyft',
+    title: 'School Supplies',
     description:
       'Lyft is an on-demand transportation company based in San Francisco, California.',
     imageUrl: '/images/products/product_4.png',

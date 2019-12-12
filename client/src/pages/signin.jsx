@@ -136,24 +136,22 @@ class SignIn extends Component {
             <div className={classes.quote}>
               <div className={classes.quoteInner}>
                 <Typography
-                  className={classes.quoteText}
+                  className={classes.quote}
                   variant="h1"
                 >
-                  Hella narwhal Cosby sweater McSweeney's, salvia kitsch before
-                  they sold out High Life.
+                  Welcome to Bread! <br/><br/>
+                  A budgeting app that helps you <br/><br/>get smarter!
                 </Typography>
                 <div className={classes.person}>
                   <Typography
-                    className={classes.name}
+                    className={classes.quote}
                     variant="body1"
                   >
-                    Takamaru Ayako
                   </Typography>
                   <Typography
-                    className={classes.bio}
+                    className={classes.quote}
                     variant="body2"
                   >
-                    Manager at inVision
                   </Typography>
                 </div>
               </div>

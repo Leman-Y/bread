@@ -45,7 +45,7 @@ class SalesChart extends Component {
         className={rootClassName}
       >
         <PortletHeader noDivider>
-          <PortletLabel title="Latest sales" />
+          <PortletLabel title="Spending by day this week vs. last week" />
           <PortletToolbar>
             <Button
               className={classes.dropdownButton}

@@ -1,7 +1,7 @@
 export default [
   {
     id: 'DEV705225',
-    name: 'Ekaterina Tankova',
+    name: 'Sandwich and Fries',
     address: {
       country: 'USA',
       state: 'West Virginia',
@@ -20,7 +20,7 @@ export default [
   },
   {
     id: 'DEV696649',
-    name: 'Cao Yu',
+    name: 'Skirt from Forever 21',
     address: {
       country: 'USA',
       state: 'Bristow',
@@ -58,7 +58,7 @@ export default [
   },
   {
     id: 'DEV702967',
-    name: 'Anje Keizer',
+    name: 'Red Bull from Walgreens',
     address: {
       country: 'USA',
       state: 'Ohio',
@@ -77,7 +77,7 @@ export default [
   },
   {
     id: 'DEV663348',
-    name: 'Clarke Gillebert',
+    name: ' Polariod Camera',
     address: {
       country: 'USA',
       state: 'Texas',
@@ -97,7 +97,7 @@ export default [
   },
   {
     id: 'DEV728981',
-    name: 'Adam Denisov',
+    name: 'Phone Bill',
     address: {
       country: 'USA',
       state: 'California',
@@ -117,7 +117,7 @@ export default [
   },
   {
     id: 'DEV883167',
-    name: 'Ava Gregoraci',
+    name: 'Notepad',
     address: {
       country: 'USA',
       state: 'California',
@@ -136,7 +136,7 @@ export default [
   },
   {
     id: 'DEV714786',
-    name: 'Emilee Simchenko',
+    name: 'Broadway showing of Wicked',
     address: {
       country: 'USA',
       state: 'Nevada',

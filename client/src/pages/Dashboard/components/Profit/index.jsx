@@ -36,13 +36,13 @@ class Profit extends Component {
               className={classes.title}
               variant="body2"
             >
-              TOTAL PROFIT
+              TOTAL SAVINGS
             </Typography>
             <Typography
               className={classes.value}
               variant="h3"
             >
-              $23,200
+              $4,000
             </Typography>
           </div>
           <div className={classes.iconWrapper}>
