@@ -7,6 +7,7 @@ import compose from 'recompose/compose';
 import validate from 'validate.js';
 import _ from 'underscore';
 
+
 // Material helpers
 import { withStyles } from '@material-ui/core';
 
@@ -123,7 +124,10 @@ class SignIn extends Component {
     const showPasswordError = touched.password && errors.password;
 
     return (
+
       <div className={classes.root}>
+            <link href="https://fonts.googleapis.com/css?family=Roboto:400,900i&display=swap" rel="stylesheet"/>
+
         <Grid
           className={classes.grid}
           container
@@ -140,7 +144,7 @@ class SignIn extends Component {
                   variant="h1"
                 >
                   Welcome to Bread! <br/><br/>
-                  A budgeting app that helps you <br/><br/>get smarter!
+                  A budgeting app that helps you get smarter!
                 </Typography>
                 <div className={classes.person}>
                   <Typography

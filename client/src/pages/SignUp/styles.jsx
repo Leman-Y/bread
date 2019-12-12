@@ -28,9 +28,9 @@ export default theme => ({
   },
   quoteText: {
     color: "#0B7FE5",
-    fontFamily: 'Geneva',
+    fontFamily: 'Roboto,sans-serif',
     fontSize: 50,
-    fontWeight: 1000,
+    fontWeight: 10000,
     fontWeight: "bold"
   },
   name: {
