@@ -49,7 +49,7 @@ class DevicesChart extends Component {
         className={rootClassName}
       >
         <PortletHeader noDivider>
-          <PortletLabel title="Users by device" />
+          <PortletLabel title="Monthly Spending by Catagory" />
           <PortletToolbar>
             <IconButton
               className={classes.refreshButton}
@@ -70,7 +70,7 @@ class DevicesChart extends Component {
           <div className={classes.stats}>
             <div className={classes.device}>
               <LaptopMacIcon className={classes.deviceIcon} />
-              <Typography variant="body1">Desktop</Typography>
+              <Typography variant="body1">Food</Typography>
               <Typography
                 style={{ color: palette.primary.main }}
                 variant="h2"
@@ -80,7 +80,7 @@ class DevicesChart extends Component {
             </div>
             <div className={classes.device}>
               <TabletMacIcon className={classes.deviceIcon} />
-              <Typography variant="body1">Tablet</Typography>
+              <Typography variant="body1">Clothing</Typography>
               <Typography
                 style={{ color: palette.danger.main }}
                 variant="h2"
@@ -90,7 +90,7 @@ class DevicesChart extends Component {
             </div>
             <div className={classes.device}>
               <PhoneIphoneIcon className={classes.deviceIcon} />
-              <Typography variant="body1">Mobile</Typography>
+              <Typography variant="body1">Entertainment</Typography>
               <Typography
                 style={{ color: palette.warning.main }}
                 variant="h2"

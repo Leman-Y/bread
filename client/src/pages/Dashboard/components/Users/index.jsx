@@ -39,13 +39,13 @@ class Users extends Component {
               className={classes.title}
               variant="body2"
             >
-              TOTAL USERS
+              TOTAL TRANSACTIONS
             </Typography>
             <Typography
               className={classes.value}
               variant="h3"
             >
-              1600
+              16
             </Typography>
           </div>
           <div className={classes.iconWrapper}>

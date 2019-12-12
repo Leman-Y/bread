@@ -49,11 +49,12 @@ class Sidebar extends Component {
             className={classes.logoLink}
             to="/"
           >
-            <img
-              alt="Brainalytica logo"
-              className={classes.logoImage}
-              src="/images/logos/brainalytica_logo.svg"
-            />
+             <Typography
+            className={classes.nameText}
+            variant="h1"
+          >
+            BREAD
+          </Typography>
           </Link>
         </div>
         <Divider className={classes.logoDivider} />
@@ -75,7 +76,7 @@ class Sidebar extends Component {
             className={classes.bioText}
             variant="caption"
           >
-            Brain Director
+            College Student at CCNY
           </Typography>
         </div>
         <Divider className={classes.profileDivider} />
@@ -97,48 +98,8 @@ class Sidebar extends Component {
               primary="Dashboard"
             />
           </ListItem>
-          <ListItem
-            activeClassName={classes.activeListItem}
-            className={classes.listItem}
-            component={NavLink}
-            to="/users"
-          >
-            <ListItemIcon className={classes.listItemIcon}>
-              <PeopleIcon />
-            </ListItemIcon>
-            <ListItemText
-              classes={{ primary: classes.listItemText }}
-              primary="Users"
-            />
-          </ListItem>
-          <ListItem
-            activeClassName={classes.activeListItem}
-            className={classes.listItem}
-            component={NavLink}
-            to="/products"
-          >
-            <ListItemIcon className={classes.listItemIcon}>
-              <ShoppingBasketIcon />
-            </ListItemIcon>
-            <ListItemText
-              classes={{ primary: classes.listItemText }}
-              primary="Products"
-            />
-          </ListItem>
-          <ListItem
-            activeClassName={classes.activeListItem}
-            className={classes.listItem}
-            component={NavLink}
-            to="/sign-in"
-          >
-            <ListItemIcon className={classes.listItemIcon}>
-              <LockOpenIcon />
-            </ListItemIcon>
-            <ListItemText
-              classes={{ primary: classes.listItemText }}
-              primary="Authentication"
-            />
-          </ListItem>
+          
+         
           <ListItem
             activeClassName={classes.activeListItem}
             className={classes.listItem}
@@ -153,20 +114,7 @@ class Sidebar extends Component {
               primary="Transactions"
             />
           </ListItem>
-          <ListItem
-            activeClassName={classes.activeListItem}
-            className={classes.listItem}
-            component={NavLink}
-            to="/icons"
-          >
-            <ListItemIcon className={classes.listItemIcon}>
-              <ImageIcon />
-            </ListItemIcon>
-            <ListItemText
-              classes={{ primary: classes.listItemText }}
-              primary="Icons and Images"
-            />
-          </ListItem>
+          
           <ListItem
             activeClassName={classes.activeListItem}
             className={classes.listItem}

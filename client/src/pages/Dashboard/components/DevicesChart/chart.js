@@ -16,7 +16,7 @@ export const data = {
       hoverBorderColor: palette.common.white
     }
   ],
-  labels: ['Desktop', 'Tablet', 'Mobile']
+  labels: ['FOOD', 'CLOTHING', 'ENTERTAINMENT']
 };
 
 // Chart options

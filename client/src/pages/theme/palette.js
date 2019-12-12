@@ -49,7 +49,7 @@ export default {
     disabled: '#A6B1BB'
   },
   background: {
-    default: '#f8fafc',
+    default: '#fffff',
     dark: '#172B4D',
     paper: white
   },

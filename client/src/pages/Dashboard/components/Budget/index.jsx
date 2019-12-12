@@ -45,7 +45,7 @@ class Budget extends Component {
               className={classes.value}
               variant="h3"
             >
-              $24,000
+              $500
             </Typography>
           </div>
           <div className={classes.iconWrapper}>

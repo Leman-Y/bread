@@ -12,6 +12,10 @@ export default theme => ({
     }
   },
   quote: {
+    color : "#0B7FE5",
+    fontFamily: 'Geneva',
+    fontSize: 50,
+    fontWeight: 1000, 
     backgroundColor: theme.palette.common.neutral,
     height: '100%',
     display: 'flex',

@@ -122,7 +122,7 @@ class OrdersTable extends Component {
         <PortletHeader noDivider>
           <PortletLabel
             subtitle={`${ordersTotal} in total`}
-            title="Latest orders"
+            title="Latest Transactions"
           />
           <PortletToolbar>
             <Button
@@ -150,8 +150,8 @@ class OrdersTable extends Component {
               <Table>
                 <TableHead>
                   <TableRow>
-                    <TableCell>Order ID</TableCell>
-                    <TableCell align="left">Customer</TableCell>
+                    <TableCell>Amount</TableCell>
+                    <TableCell align="left">Description</TableCell>
                     <TableCell
                       align="left"
                       sortDirection="desc"
@@ -168,7 +168,7 @@ class OrdersTable extends Component {
                         </TableSortLabel>
                       </Tooltip>
                     </TableCell>
-                    <TableCell align="left">Status</TableCell>
+                    <TableCell align="left">Catagory</TableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
