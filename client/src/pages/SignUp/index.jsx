@@ -147,6 +147,7 @@ class SignUp extends Component {
 
     return (
       <div className={classes.root}>
+       <link href="https://fonts.googleapis.com/css?family=Roboto:400,900i&display=swap" rel="stylesheet"/>
         <Grid
           className={classes.grid}
           container

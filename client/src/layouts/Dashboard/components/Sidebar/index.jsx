@@ -114,6 +114,21 @@ class Sidebar extends Component {
               primary="Transactions"
             />
           </ListItem>
+
+          <ListItem
+            activeClassName={classes.activeListItem}
+            className={classes.listItem}
+            component={NavLink}
+            to="/products"
+          >
+            <ListItemIcon className={classes.listItemIcon}>
+              <ShoppingBasketIcon />
+            </ListItemIcon>
+            <ListItemText
+              classes={{ primary: classes.listItemText }}
+              primary="Catagories"
+            />
+          </ListItem>
           
           <ListItem
             activeClassName={classes.activeListItem}

@@ -121,9 +121,9 @@ class ProductList extends Component {
           >
             <div className={classes.productImageWrapper}>
               <img
-                //alt="Product Name"
-                //className={classes.productImage}
-                //src={product.imageUrl}
+                alt="Product Name"
+                className={classes.productImage}
+                src={product.imageUrl}
               />
             </div>
             <div className={classes.productDetails}>
@@ -176,7 +176,7 @@ class ProductList extends Component {
         <PortletHeader noDivider>
           <PortletLabel
             subtitle={`${productsTotal} in total`}
-            title="Latest products"
+            title="Transaction Catagories"
           />
         </PortletHeader>
         <PortletContent className={classes.portletContent}>
@@ -188,7 +188,7 @@ class ProductList extends Component {
             color="primary"
             size="small"
             variant="text"
-            //onClick = {this.handleClick}
+            onClick = {this.handleClick}
           >
             View all <ArrowRightIcon />
           </Button>
