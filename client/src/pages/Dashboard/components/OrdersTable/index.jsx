@@ -171,7 +171,7 @@ class OrdersTable extends Component {
                         </TableSortLabel>
                       </Tooltip>
                     </TableCell>
-                    <TableCell align="left">Catagory</TableCell>
+                    <TableCell align="left">Category</TableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
