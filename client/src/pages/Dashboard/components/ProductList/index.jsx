@@ -108,7 +108,7 @@ class ProductList extends Component {
 
     if (products.length === 0) {
       return (
-        <Typography variant="h6">There are no products available</Typography>
+        <Typography variant="h6">There are no transaction categies available</Typography>
       );
     }
 
@@ -154,7 +154,7 @@ class ProductList extends Component {
   }
   handleClick = () => {
     // if(!this.state.referrer){
-      this.setState({referrer: '/products'});
+      this.setState({referrer: '/transaction-categories'});
     // }
     // else{
     //   this.setState({referrer: null});

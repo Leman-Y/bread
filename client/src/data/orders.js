@@ -1,13 +1,13 @@
 export default [
   {
-
 //need to fix the date on these, idk what tf these numberes are 
-
     id: '$11.5',
     amount: 30.5,
     customer: 'DEV705225',
     products: ['DEV738089'],
     createdAt: '12/12/19',
+    status: 'food'
+  },
   {
     id: '$20.99',
     amount: 25.1,

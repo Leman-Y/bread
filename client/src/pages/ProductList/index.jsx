@@ -94,7 +94,7 @@ class ProductList extends Component {
 
     if (products.length === 0) {
       return (
-        <Typography variant="h6">There are no products available</Typography>
+        <Typography variant="h6">There are no transaction categories available</Typography>
       );
     }
 
@@ -124,7 +124,7 @@ class ProductList extends Component {
     const { classes } = this.props;
 
     return (
-      <DashboardLayout title="Products">
+      <DashboardLayout title="Transaction Categories">
         <div className={classes.root}>
           <ProductsToolbar />
           <div className={classes.content}>{this.renderProducts()}</div>

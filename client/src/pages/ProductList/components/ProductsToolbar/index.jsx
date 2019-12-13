@@ -37,7 +37,7 @@ class ProductsToolbar extends Component {
         <div className={classes.row}>
           <SearchInput
             className={classes.searchInput}
-            placeholder="Search product"
+            placeholder="Search Transaction Category"
           />
           <span className={classes.spacer} />
           <DisplayMode mode="grid" />
