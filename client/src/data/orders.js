@@ -7,15 +7,13 @@ export default [
     amount: 30.5,
     customer: 'DEV705225',
     products: ['DEV738089'],
-    createdAt: 1576195652000,
-    status: 'food'
-  },
+    createdAt: '12/12/19',
   {
     id: '$20.99',
     amount: 25.1,
     customer: 'DEV696649',
     products: ['DEV774585'],
-    createdAt: 1655016400000,
+    createdAt: '12/12/19',
     status: 'clothing'
   },
   {
@@ -23,7 +21,7 @@ export default [
     amount: 10.99,
     customer: 'DEV702967',
     products: ['DEV654476'],
-    createdAt: 1554930000000,
+    createdAt: '11/12/19',
     status: 'food'
   },
   {
@@ -31,7 +29,7 @@ export default [
     amount: 96.43,
     customer: 'DEV663348',
     products: ['DEV654476', 'DEV773559'],
-    createdAt: 1554757200000,
+    createdAt: '10/12/19',
     status: 'Unnecessary Purchase'
   },
   {
@@ -39,7 +37,7 @@ export default [
     amount: 32.54,
     customer: 'DEV728981',
     products: ['DEV738089'],
-    createdAt: 1554670800000,
+    createdAt: '09/12/19',
     status: 'Bills'
   },
   {
@@ -47,7 +45,7 @@ export default [
     amount: 34.2,
     customer: 'DEV883167',
     products: ['DEV773559'],
-    createdAt: 1554325200000,
+    createdAt: '08/12/19',
     status: 'School Suplies'
   },
   {
@@ -55,7 +53,7 @@ export default [
     amount: 43.75,
     customer: 'DEV714786',
     products: ['DEV795381'],
-    createdAt: 1554325200000,
+    createdAt: '07/12/19',
     status: 'Entertainment'
   }
 ];

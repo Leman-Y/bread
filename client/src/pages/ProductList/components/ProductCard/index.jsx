@@ -60,12 +60,11 @@ class ProductCard extends Component {
           >
             Updated 2hr ago
           </Typography>
-          <GetAppIcon className={classes.downloadsIcon} />
           <Typography
             className={classes.downloadsText}
             variant="body2"
           >
-            {product.totalDownloads} Downloads
+             Catagory
           </Typography>
         </div>
       </Paper>

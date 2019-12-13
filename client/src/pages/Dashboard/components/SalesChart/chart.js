@@ -3,7 +3,7 @@ import palette from '../../../../theme/palette';
 
 // Chart data
 export const data = {
-  labels: ['8 Dec', '9 Dec', '10 Dec', '11 Dec', '12 Dec', '13 Dec'],
+  labels: ['7 Dec', '8 Dec', '9 Dec', '10 Dec', '11 Dec', '12 Dec'],
   datasets: [
     {
       label: 'This week',
