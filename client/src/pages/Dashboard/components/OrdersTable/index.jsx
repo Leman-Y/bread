@@ -102,7 +102,8 @@ class OrdersTable extends Component {
         this.setState({referrer: '/transactions'});
       }
       else{
-        this.setState({referrer: 'showModal'});
+        console.log("here");
+        this.setState({referrer: '/transaction-form'});
       }
     
   }
@@ -116,6 +117,8 @@ class OrdersTable extends Component {
     //   alert("Hello World!");
     // }
     if (this.state.referrer == '/transactions')return <Redirect to={this.state.referrer} />;
+    if (this.state.referrer == '/transaction-form')return <Redirect to={this.state.referrer} />;
+
     //if (this.state.referrer == 'showModal')return <></>;
     return (
       <Portlet className={rootClassName}>
