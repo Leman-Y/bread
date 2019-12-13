@@ -25,6 +25,7 @@ import UserList from './pages/UserList';
 import Typography from './pages/Typography';
 import Account from './pages/Account';
 import Settings from './pages/Settings';
+import TransactionForm from './pages/TransactionForm';
 import UnderDevelopment from './pages/UnderDevelopment';
 import NotFound from './pages/NotFound';
 import Icons from './pages/Icons';
@@ -86,6 +87,7 @@ class App extends React.Component {
                 <Route path="/under-development" component={UnderDevelopment}/>
                 <Route  path="/not-found" component={NotFound}/>
                 <Route  path="/icons" component={Icons}/>
+                <Route  path="/transaction-form" component={TransactionForm}/>
                 <Route path="/" component={Homepage} />
               </Switch>
             </div>
