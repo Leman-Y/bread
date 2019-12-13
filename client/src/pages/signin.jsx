@@ -11,6 +11,8 @@ import _ from 'underscore';
 // Material helpers
 import { withStyles } from '@material-ui/core';
 
+
+//From node_modules
 // Material components
 import {
   Grid,
@@ -62,9 +64,15 @@ class SignIn extends Component {
   };
 
   handleBack = () => {
+    /*
+    Previous:
     const { history } = this.props;
-
     history.goBack();
+    */
+    //12/12/19 Fixed back button to correctly redirect to homepage
+    //https://stackoverflow.com/questions/51393153/react-routing-redirect-onclick
+    this.props.history.push(`/`);
+
   };
 
   validateForm = _.debounce(() => {
