@@ -7,7 +7,7 @@ export default [
     amount: 30.5,
     customer: 'DEV705225',
     products: ['DEV738089'],
-    createdAt: 1555016400000,
+    createdAt: 1576195652000,
     status: 'food'
   },
   {
