@@ -28,7 +28,7 @@ import Settings from './pages/Settings';
 import TransactionForm from './pages/TransactionForm';
 import UnderDevelopment from './pages/UnderDevelopment';
 import NotFound from './pages/NotFound';
-import Icons from './pages/Icons';
+import Icons from './pages/icons';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
