@@ -115,7 +115,7 @@ class Account extends Component {
       >
         <PortletHeader>
           <PortletLabel
-            title="Transaction"
+            title="Transaction Categories"
           />
         </PortletHeader>
         <PortletContent noPadding>
@@ -126,56 +126,12 @@ class Account extends Component {
             <div className={classes.field}>
               <TextField
                 className={classes.textField}
-                label="Amount"
-                type="number"
-                margin="dense"
-                required
-                value={firstName}
-                variant="outlined"
-                onChange={this.handleAmountChange}
-              />
-            </div>
-            <div className={classes.field}>
-              
-              <TextField
-                className={classes.textField}
-                margin="dense"
-                type="date"
-                required
-                value={lastName}
-                variant="outlined"
-                onChange={this.handleDateChange}
-              />
-            </div>
-            <div className={classes.field}>
-              <TextField
-                className={classes.textField}
-                label="Description"
+                label="Name"
                 margin="dense"
                 required
                 variant="outlined"
                 onChange={this.handleDescriptionChange}
               />
-            </div>
-            <div className={classes.field}>
-              <TextField
-                className={classes.textField}
-                // label="Select State"
-                margin="dense"
-                onChange={this.handleCategoryChange}
-                required
-                select
-                SelectProps={{ native: true }}
-                value={state}
-                variant="outlined">
-                {this.state.products.map(option => (
-                  <option
-                    value={option.title}
-                  >
-                    {option.title}
-                  </option>
-                ))}
-              </TextField>
             </div>
           </form>
         </PortletContent>
@@ -185,7 +141,7 @@ class Account extends Component {
             variant="contained"
             onClick={this.addToJson}
           >
-            Add Transaction
+            Add Transaction Category
           </Button>
         </PortletFooter>
       </Portlet>

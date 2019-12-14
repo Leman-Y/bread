@@ -28,7 +28,8 @@ import Settings from './pages/Settings';
 import TransactionForm from './pages/TransactionForm';
 import UnderDevelopment from './pages/UnderDevelopment';
 import NotFound from './pages/NotFound';
-import Icons from './pages/icons';
+import Icons from './pages/Icons';
+import TransactionCategoriesForm from './pages/TransactionCategoriesForm';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -58,11 +59,6 @@ function Navigation(props) {
     </nav>
   );
 }
-
-//                <Route path="/" component={PostsListPage} />
-
-
-//Removed           <Navigation />  from App return( )
 class App extends React.Component {
   render() {
     return (
@@ -89,6 +85,7 @@ class App extends React.Component {
                 <Route  path="/icons" component={Icons}/>
                 <Route  path="/transaction-form" component={TransactionForm}/>
                 <Route path="/" component={Homepage} />
+                <Route path="/transaction-categories-form" component={TransactionCategoriesForm} />
               </Switch>
             </div>
           </div>
