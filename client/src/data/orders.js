@@ -1,6 +1,5 @@
 export default [
   {
-//need to fix the date on these, idk what tf these numberes are 
     id: '$11.5',
     amount: 30.5,
     customer: 'DEV705225',

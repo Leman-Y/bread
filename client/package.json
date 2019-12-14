@@ -7,6 +7,7 @@
     "@material-ui/icons": "^4.0.0-beta.0",
     "@material-ui/styles": "^4.0.0-beta.1",
     "bootstrap": "^4.4.1",
+    "browserify-fs": "^1.0.0",
     "chart.js": "^2.7.3",
     "classnames": "^2.2.6",
     "history": "^4.7.2",
@@ -23,7 +24,9 @@
     "react-scripts": "3.0.1",
     "recompose": "^0.30.0",
     "underscore": "^1.9.1",
-    "validate.js": "^0.12.0"
+    "validate.js": "^0.12.0",
+    "write-file-p": "^1.0.7",
+    "write-json-file": "^4.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
